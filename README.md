@@ -3,7 +3,13 @@ Machine learning concepts
 
 ## Linear regression
 
-> At its core, Linear Regression is a method to model the relationship between a dependent variable (\(y\)) and one or more independent variables (\(X\)). For a single variable, the model is:\(y=mx+c\)For multiple variables, we use the vectorized form:\(y=\theta _{0}+\theta _{1}x_{1}+\theta _{2}x_{2}+\dots +\theta _{n}x_{n}\)
+> At its core, Linear Regression is a method to model the relationship between a dependent variable ($y$) and one or more independent variables ($X$).
+>
+> For a single variable, the model is:
+> $$y = mx + c$$
+>
+> For multiple variables, we use the vectorized form:
+> $$y = \theta_0 + \theta_1x_1 + \theta_2x_2 + \dots + \theta_nx_n$$
 
 ### Why do we differentiate?
 > To find the "best" line, we need to minimize the Loss Function (usually Mean Squared Error). The loss represents the distance between our predictions ($\hat{y}$) and the actual values ($y$).The Intuition:The "Valley": If you plot the Loss Function, it looks like a bowl. The bottom of the bowl represents the minimum error (the best model).The Gradient: Differentiation gives us the slope (gradient) of the bowl at any given point.The Direction: * If the slope is positive, we are on the right side of the valley; we need to decrease our weights.If the slope is negative, we are on the left side; we need to increase our weights.By taking the derivative of the Loss Function with respect to our weights ($\frac{\partial L}{\partial \theta}$), we obtain a mathematical compass that tells us exactly which direction to move to reach the bottom.
