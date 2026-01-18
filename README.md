@@ -3,7 +3,7 @@ Machine learning concepts
 
 ## Linear regression
 
-At its core, Linear Regression is a method to model the relationship between a dependent variable ($y$) and one or more independent variables ($X$).
+> At its core, Linear Regression is a method to model the relationship between a dependent variable ($y$) and one or more independent variables ($X$).
 For a single variable, the model is:$$y = mx + c$$
 For multiple variables, we use the vectorized form:$$y = \theta_0 + \theta_1x_1 + \theta_2x_2 + ... + \theta_nx_n$$
 
