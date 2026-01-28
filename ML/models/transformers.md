@@ -10,7 +10,7 @@ In a transformer architecture, the **Query (Q)**, **Key (K)**, and **Value (V)**
 The input words or tokens are first converted into dense numerical vectors called **embeddings**. **Positional encodings** are added to these embeddings to incorporate information about the sequence order, as transformers do not inherently understand position.
 
 ### 2. Weight Matrices
-Three distinct weight matrices—$W_q$, $W_k$, and $W_v$—are created for each attention head.
+Three distinct weight matrices— $W_q$, $W_k$, and $W_v$—are created for each attention head.
 * **Initial State:** These matrices are initialized with small, random values before training begins. Common methods like **Xavier/Glorot** initialization are often used to ensure stable gradient flow.
 * **Optimization:** These are **learnable parameters**, meaning their values are adjusted during the model's training process via backpropagation.
 
